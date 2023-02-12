@@ -1,23 +1,23 @@
 module.exports = {
-  'env': {
-    'browser': true,
-    'es2021': true,
-    'node': true,
+  env: {
+    browser: true,
+    es2021: true,
+    node: true,
   },
-  'extends': [
+  extends: [
     'plugin:vue/vue3-strongly-recommended',
     'eslint:recommended',
   ],
-  'overrides': [
+  overrides: [
   ],
-  'parserOptions': {
-    'ecmaVersion': 'latest',
-    'sourceType': 'module',
+  parserOptions: {
+    ecmaVersion: 'latest',
+    sourceType: 'module',
   },
-  'plugins': [
+  plugins: [
     'vue',
   ],
-  'rules': {
+  rules: {
     'vue/html-closing-bracket-newline': ['error', {
       'singleline': 'naver',
       'multiline': 'naver'

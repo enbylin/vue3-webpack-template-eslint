@@ -4,15 +4,16 @@
 </template>
 
 <script>
-import HelloWorld from '~/components/HelloWorld'
+import HelloWorld from '~/components/HelloWorld';
+
 export default {
   components: {
-    HelloWorld
+    HelloWorld,
   },
   data() {
     return {
-      message: 'Hello Vue!!'
-    }
-  }
-}
+      message: 'Hello Vue!!',
+    };
+  },
+};
 </script>
