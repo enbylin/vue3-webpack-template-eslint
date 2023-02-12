@@ -1,0 +1,5 @@
+{
+  "editor.codeActionsOnSave": {},
+  "javascript.validate.enable": false,
+  "typescript.validate.enable": true
+}
